@@ -32,4 +32,8 @@ const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
 
-// Important: We don't actually need to add type annotations at all. It will still work just fine.
+// When to use annotations
+// 1) Function that returns the 'any' type
+const json = '{"X":10, "y":20}';
+const coordinates: { x: number; y: number } = JSON.parse(json);
+console.log(coordinates);
