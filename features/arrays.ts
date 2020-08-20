@@ -20,3 +20,8 @@ carMakers.push(100);
 carMakers.map((car: string): string => {
   return car.toUpperCase();
 });
+
+// Flexible types
+const importDates: (Date | string)[] = [new Date()];
+importDates.push('2030-10-10');
+importDates.push(new Date());
