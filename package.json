@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/Kay-bot/typescript-fetchjson#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "@types/faker": "^4.1.12",
+    "axios": "^0.19.2",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
   }
 }
