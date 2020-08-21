@@ -24,4 +24,5 @@ export class Company {
       <h3>Catchphrase: ${this.catchPhrase}</h3>
     </div>`;
   }
+  color: string = 'yellow';
 }
